@@ -1,0 +1,107 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+
+/*
+            MAIN COLOR: #087f5b
+            GREY COLOR: #343a40
+            HOVER COLOR: #099268
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+.container {
+  width: 1440px;
+  height: 800px;
+  margin: 100px auto;
+  background-color: hsl(224, 34%, 75%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 370px;
+  height: 560px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.girl-icon {
+  width: 370px;
+  height: 170px;
+  margin-bottom: 14px;
+}
+
+.music-icon {
+  width: 40px;
+}
+.title {
+  margin-left: 80px;
+}
+.text {
+  /* margin-left: 48px; */
+  margin-bottom: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+.price {
+  margin-left: 48px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 12px;
+}
+
+.btn {
+  margin-left: 34px;
+  width: 290px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--big {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  width: 300px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.price-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  gap: 7px;
+}
+
+div span:first-child {
+  font-weight: bold;
+}
